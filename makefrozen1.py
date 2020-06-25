@@ -9,4 +9,4 @@ freeze_graph.freeze_graph(input_graph='./nonfrozenpbtxt.pbtxt',
                           restore_op_name="",
                           filename_tensor_name="",
                           output_graph='./make_frozen1.pb',
-                          clear_devices=False, initializer_nodes="")
+                          clear_devices=False, initializer_nodes="content")
